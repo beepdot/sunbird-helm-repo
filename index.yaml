@@ -3,7 +3,7 @@ entries:
   common:
   - apiVersion: v2
     appVersion: 5.0.0
-    created: "2023-02-10T17:44:25.825259+05:30"
+    created: "2023-02-10T18:46:04.819186+05:30"
     description: A helm chart for common templates
     digest: 502347abfc40e0ffc3726b553571ccc09da5f5bb2bf1546c8c241ed703ab0214
     name: common
@@ -11,4 +11,30 @@ entries:
     urls:
     - https://keshavprasadms.github.io/sunbird-helm-repo/common-0.1.0.tgz
     version: 0.1.0
-generated: "2023-02-10T17:44:25.82465+05:30"
+  common-opa-policies:
+  - apiVersion: v2
+    appVersion: 5.0.0
+    created: "2023-02-10T18:46:04.819992+05:30"
+    dependencies:
+    - name: common
+      repository: https://keshavprasadms.github.io/sunbird-helm-repo
+      version: 0.1.0
+    description: A helm chart for common opa policies
+    digest: 539fe6ba13bb9c81d1d81f89cecff5627a9b82c6e287a7def912076b58c54f29
+    name: common-opa-policies
+    type: application
+    urls:
+    - https://keshavprasadms.github.io/sunbird-helm-repo/common-opa-policies-0.1.0.tgz
+    version: 0.1.0
+  user-access-keys:
+  - apiVersion: v2
+    appVersion: 5.0.0
+    created: "2023-02-10T18:46:04.820519+05:30"
+    description: A helm chart for creating th user access public and private keys
+    digest: 9ff2fbc9592cf7e4195dcc7d2260660eabc64aea2dd845135139810b6e5a7e8f
+    name: user-access-keys
+    type: application
+    urls:
+    - https://keshavprasadms.github.io/sunbird-helm-repo/user-access-keys-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-02-10T18:46:04.818065+05:30"
